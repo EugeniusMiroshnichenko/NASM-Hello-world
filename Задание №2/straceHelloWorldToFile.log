@@ -1,0 +1,6 @@
+execve("./helloWorldToFile", ["./helloWorldToFile"], 0x7ffc6da29190 /* 27 vars */) = 0
+open("output", O_WRONLY|O_CREAT|O_TRUNC, 0644) = 3
+write(3, "Hello world!\\n", 14)         = 14
+close(3)                                = 0
+exit(0)                                 = ?
++++ exited with 0 +++
