@@ -1,8 +1,0 @@
-execve("./reversedStr", ["./reversedStr"], 0x7ffd1ea5d9f0 /* 27 vars */) = 0
-write(1, "Enter string:", 13)           = 13
-read(0, "big\n", 256)                   = 4
-write(1, "Reversed string:", 16)        = 16
-write(1, "\ngib", 4)                    = 4
-write(1, "\n", 1)                       = 1
-exit(0)                                 = ?
-+++ exited with 0 +++
